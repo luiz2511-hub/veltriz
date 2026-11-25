@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0e14">
+  <meta name="description" content="Conheça a coleção de corrida Veltriz: três modelos para asfalto, treino diário e trilha.">
+  <title>Veltriz — Feito para ir além</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="topo">
+    <div class="wrap header-row">
+      <a class="wordmark" href="#topo" aria-label="Veltriz, início"><span class="mark" aria-hidden="true"></span>VELTRIZ</a>
+      <nav aria-label="Navegação principal">
+        <a href="#colecao">Coleção</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#manifesto">Manifesto</a>
+      </nav>
+      <a class="header-cta" href="#colecao">Ver modelos <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-frame">
+        <img class="hero-image" src="assets/hero.webp" alt="Tênis de corrida azul elétrico suspenso sob luz azul" width="1536" height="1024" fetchpriority="high">
+        <div class="hero-reveal" aria-hidden="true"><img src="assets/hero.webp" alt="" width="1536" height="1024"></div>
+      </div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> COLEÇÃO 01 / CORRIDA</p>
+          <h1 id="hero-title">FEITO PARA<br><em>IR ALÉM.</em></h1>
+          <p class="hero-description">Do primeiro treino à última subida. Encontre o tênis para o seu próximo percurso.</p>
+          <a class="button" href="#colecao">Explorar coleção <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-caption"><span>VELO 01</span> <i></i> AZUL ELÉTRICO</p>
+      </div>
+    </section>
+
+    <section class="race" id="percurso" aria-labelledby="race-title">
+      <div class="race-stage">
+        <img class="race-landscape" src="assets/track.webp" width="1536" height="1024" loading="lazy" alt="Corredor numa pista iluminada à noite">
+        <div class="race-shade" aria-hidden="true"></div>
+        <div class="race-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div class="wrap race-copy">
+          <p class="eyebrow"><span></span> A PISTA É SUA</p>
+          <h2 id="race-title">Cada passada<br>muda o percurso.</h2>
+        </div>
+      </div>
+    </section>
+
+    <div class="spotlight-runway" hidden>
+      <section class="spotlight" aria-label="Vitrine de modelos">
+        <svg class="cutouts" width="0" height="0" aria-hidden="true" focusable="false">
+          <defs>
+            <!-- Contornos no enquadramento 400 × 300 das fotos de produto. -->
+            <clipPath id="cut-velo" clipPathUnits="objectBoundingBox"><path transform="scale(.0025 .00333333)" d="M20 200 Q21 183 37 181 Q100 175 125 161 L134 156 141 157 147 149 158 149 164 135 173 134 182 128 188 119 198 117 204 106 214 104 Q239 72 250 81 Q266 92 273 120 Q296 143 315 132 Q331 103 345 102 L350 101 Q355 85 364 95 Q371 103 361 124 L360 136 Q371 173 368 191 Q374 202 375 214 Q394 239 366 254 Q344 266 300 265 L227 262 Q166 269 115 265 Q43 257 23 225 Q19 216 20 200Z"/></clipPath>
+            <clipPath id="cut-flux" clipPathUnits="objectBoundingBox"><path transform="scale(.0025 .00333333)" d="M20 202 Q22 183 43 180 Q96 171 123 160 L132 157 140 155 147 149 156 146 164 137 176 135 183 126 191 118 198 118 205 108 214 104 Q235 77 249 87 Q262 93 266 120 Q296 153 315 133 Q329 102 344 104 Q347 90 358 92 Q374 94 359 124 L360 140 Q368 161 368 190 L375 209 Q391 234 372 250 Q352 266 315 266 L230 264 Q154 271 110 267 Q52 257 28 231 Q18 219 20 202Z"/></clipPath>
+            <clipPath id="cut-terra" clipPathUnits="objectBoundingBox"><path transform="scale(.0025 .00333333)" d="M20 195 Q24 176 44 173 Q99 167 122 157 L134 151 144 150 152 138 163 135 174 129 178 120 190 116 198 102 208 100 Q228 73 238 76 Q254 79 265 110 Q297 141 314 128 Q329 94 344 100 L350 102 Q355 85 368 90 Q381 98 361 121 L360 131 Q371 154 371 181 L377 192 376 202 384 211 383 218 386 222 385 239 379 243 375 253 363 254 358 263 341 264 339 267 278 267 270 264 261 265 254 255 Q228 251 215 257 L210 265 Q181 271 122 268 L116 264 103 263 99 258 87 259 82 252 71 254 65 249 56 247 52 241 44 241 39 235 31 230 27 221 Q19 217 20 195Z"/></clipPath>
+          </defs>
+        </svg>
+        <div class="spotlight-images" aria-hidden="true">
+          <img src="assets/velo.webp" width="512" height="768" alt="" loading="lazy">
+          <img src="assets/flux.webp" width="512" height="768" alt="" loading="lazy">
+          <img src="assets/terra.webp" width="512" height="768" alt="" loading="lazy">
+        </div>
+        <div class="wrap spotlight-controls">
+          <p class="spotlight-name" role="status">Velo 01</p>
+          <button type="button" data-step="-1" aria-label="Destacar modelo anterior">←</button>
+          <button type="button" data-step="1" aria-label="Destacar próximo modelo">→</button>
+        </div>
+      </section>
+    </div>
+
+    <section class="collection" id="colecao" aria-labelledby="collection-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow"><span></span> A COLEÇÃO</p>
+            <h2 id="collection-title">Seu ritmo.<br>Seu terreno.</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar por terreno">
+            <button type="button" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" data-filter="asfalto" aria-pressed="false">Asfalto</button>
+            <button type="button" data-filter="treino" aria-pressed="false">Treino</button>
+            <button type="button" data-filter="trilha" aria-pressed="false">Trilha</button>
+          </div>
+        </div>
+        <p class="sr-only" id="filter-status" role="status"></p>
+        <div class="product-grid">
+          <article class="product" data-category="asfalto">
+            <div class="product-media"><img src="assets/velo.webp" alt="Velo 01 em azul elétrico com sola branca" width="512" height="768" loading="lazy"><span>ASFALTO</span></div>
+            <div class="product-info"><div><h3>Velo 01</h3><p>Azul elétrico · Ritmo rápido</p></div><button class="product-button" type="button" aria-label="Ver detalhes do Velo 01" aria-haspopup="dialog">↗</button></div>
+          </article>
+          <article class="product" data-category="treino">
+            <div class="product-media"><img src="assets/flux.webp" alt="Flux 02 em tom areia com sola creme" width="512" height="768" loading="lazy"><span>TREINO</span></div>
+            <div class="product-info"><div><h3>Flux 02</h3><p>Areia · Rodagem diária</p></div><button class="product-button" type="button" aria-label="Ver detalhes do Flux 02" aria-haspopup="dialog">↗</button></div>
+          </article>
+          <article class="product" data-category="trilha">
+            <div class="product-media"><img src="assets/terra.webp" alt="Terra 03 em grafite com detalhes verde-sálvia" width="512" height="768" loading="lazy"><span>TRILHA</span></div>
+            <div class="product-info"><div><h3>Terra 03</h3><p>Grafite · Terreno irregular</p></div><button class="product-button" type="button" aria-label="Ver detalhes do Terra 03" aria-haspopup="dialog">↗</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="technology" id="tecnologia" aria-labelledby="technology-title">
+      <div class="wrap technology-grid">
+        <div data-reveal>
+          <p class="eyebrow"><span></span> TECNOLOGIA</p>
+          <h2 id="technology-title">Conforto em<br>cada passada.</h2>
+        </div>
+        <div class="specs" data-reveal>
+          <details open><summary>01 <strong>Amortecimento</strong></summary><p>A espuma leve absorve o impacto e mantém a passada fluida durante a corrida.</p></details>
+          <details><summary>02 <strong>Ventilação</strong></summary><p>A malha do cabedal tem áreas de trama aberta para facilitar a circulação de ar.</p></details>
+          <details><summary>03 <strong>Tração</strong></summary><p>A borracha do solado acompanha o terreno de cada modelo. No Terra 03, cravos mais profundos ajudam na aderência em trilhas.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
+      <div class="wrap manifesto-inner">
+        <div data-reveal>
+          <p class="eyebrow"><span></span> MANIFESTO</p>
+          <h2 id="manifesto-title">O ritmo é seu.</h2>
+          <p>Na pista antes do sol nascer ou na trilha do fim de semana, o próximo passo é sempre seu.</p>
+          <a class="button" href="#colecao">Encontrar meu tênis <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <a class="wordmark" href="#topo" aria-label="Veltriz, voltar ao início"><span class="mark" aria-hidden="true"></span>VELTRIZ</a>
+      <p>Marca fictícia · Projeto de portfólio</p>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <dialog id="product-dialog" aria-labelledby="dialog-title">
+    <form method="dialog"><button class="close" aria-label="Fechar detalhes" autofocus>×</button></form>
+    <img class="dialog-image" alt="" width="512" height="768">
+    <div class="dialog-copy">
+      <p class="eyebrow"><span></span> <span class="dialog-category"></span></p>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-description"></p>
+      <dl><div><dt>Cor</dt><dd class="dialog-color"></dd></div><div><dt>Uso</dt><dd class="dialog-use"></dd></div></dl>
+    </div>
+  </dialog>
+  <noscript><style>.filters,.product-button{display:none}</style></noscript>
+</body>
+</html>
